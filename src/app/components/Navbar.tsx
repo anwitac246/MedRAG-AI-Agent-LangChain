@@ -1,6 +1,7 @@
+'use client';
 import Link from "next/link";
 import { Moon, Sun } from "lucide-react";
-import { useTheme } from "@/hooks/useTheme";
+import { useTheme } from "../hooks/useTheme";
 
 interface NavbarProps {
   variant?: "hero" | "default";

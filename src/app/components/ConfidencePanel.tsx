@@ -1,4 +1,4 @@
-import { ConfidenceScore } from "@/types/diagnosis";
+import { ConfidenceScore } from "../types/diagnosis";
 
 interface ConfidencePanelProps {
   confidence: ConfidenceScore | null;

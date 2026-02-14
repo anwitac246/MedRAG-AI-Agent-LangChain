@@ -1,4 +1,4 @@
-import { EvidenceItem } from "@/types/diagnosis";
+import { EvidenceItem } from "../types/diagnosis";
 
 interface EvidencePanelProps {
   evidence: EvidenceItem[];

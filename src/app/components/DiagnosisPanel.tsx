@@ -1,4 +1,4 @@
-import { DifferentialDiagnosis } from "@/types/diagnosis";
+import { DifferentialDiagnosis } from "../types/diagnosis";
 
 interface DiagnosisPanelProps {
   differentials: DifferentialDiagnosis[];

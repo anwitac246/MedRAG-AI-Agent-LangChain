@@ -4,13 +4,13 @@ import { Menu } from "lucide-react";
 import ChatMessage from "./ChatMessage";
 import ChatInput from "./ChatInput";
 import ChatHistory from "./ChatHistory";
-import EvidencePanel from "./EvidencePanel";
+import EvidencePanel from "./EvidenceItem";
 import DiagnosisPanel from "./DiagnosisPanel";
 import ConfidencePanel from "./ConfidencePanel";
-import { Message } from "@/types/chat";
-import { DiagnosisOutput } from "@/types/diagnosis";
-import { ChatSession } from "@/types/session";
-import { sendMessage } from "@/lib/api";
+import { Message } from "../types/chat";
+import { DiagnosisOutput } from "../types/diagnosis";
+import { ChatSession } from "../types/session";
+import { sendMessage } from "../lib/api";
 
 type Tab = "evidence" | "diagnosis" | "confidence";
 

@@ -1,4 +1,4 @@
-import { ChatSession } from "@/types/session";
+import { ChatSession } from "../types/session";
 import { Plus, MessageSquare, X } from "lucide-react";
 
 interface ChatHistoryProps {
